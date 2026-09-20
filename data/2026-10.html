@@ -337,8 +337,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			strUrl = "/bizwiz/board/board_write.asp?dbname=" + strCate3 + "&target=G&gc=" + strCate2;
 		}
 
-		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-10&group_no=5119 / 102422_myworkschedule_2026920234239 / /MWorks/102422");
-		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-10&group_no=5119", "102422_myworkschedule_2026920234239", "/MWorks/102422",strUrl);
+		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-10&group_no=5119 / 102422_myworkschedule_202692124132 / /MWorks/102422");
+		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-10&group_no=5119", "102422_myworkschedule_202692124132", "/MWorks/102422",strUrl);
 	}
 
 	function CallPDFIA(RequestURL, RequestFileName, RequestFolderName, strUrl) {
@@ -1483,8 +1483,8 @@ $(document).ready(function(){
 					근무표 > 내근무표 > 
 					<span class="now">
 						 &nbsp;   중환자실
-							(근무표 확정전)
-						
+								(확정근무표 2026-09-21 오전 1:25:07)
+							
 					</span>
 				</p>
 				<ul class="flex justify-content-flex-start">
@@ -1731,7 +1731,7 @@ $(document).ready(function(){
 									</th>
 									
 
-								<th  colspan="1" style="width: 10vw; min-width: 100px;">근무자 합산</th>
+								<th  colspan="9" style="width: 10vw; min-width: 100px;">근무자 합산</th>
 							</tr>
 							<tr>
 								
@@ -1885,6 +1885,22 @@ $(document).ready(function(){
 								<th style="width:50px;">근무</td>
 								
 								
+											<th style="width:50px; font-size: 11px;">오전반차</th>
+											
+											<th style="width:50px; font-size: 11px;">오후반차</th>
+											
+											<th style="width:50px; font-size: 11px;">D</th>
+											
+											<th style="width:50px; font-size: 11px;">D1</th>
+											
+											<th style="width:50px; font-size: 11px;">E1</th>
+											
+											<th style="width:50px; font-size: 11px;">H</th>
+											
+											<th style="width:50px; font-size: 11px;">N1</th>
+											
+											<th style="width:50px; font-size: 11px;">OFF</th>
+											
 							</tr>
 
 							
@@ -1898,78 +1914,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_0"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>20</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>4</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="0";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -1984,78 +2016,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
 
 											<td id="totwork_1"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>9</td>
+													
+													<td>9</td>
+													
+													<td>0</td>
+													
+													<td>2</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="1";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2070,78 +2118,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
 
 											<td id="totwork_2"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>8</td>
+													
+													<td>9</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="2";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2156,78 +2220,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
 
 											<td id="totwork_3"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>7</td>
+													
+													<td>11</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="3";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2242,78 +2322,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
 
 											<td id="totwork_4"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>9</td>
+													
+													<td>6</td>
+													
+													<td>0</td>
+													
+													<td>5</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="4";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2328,78 +2424,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
 
 											<td id="totwork_5"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>8</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="5";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2414,78 +2526,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
 
 											<td id="totwork_6"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>9</td>
+													
+													<td>9</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="6";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2500,78 +2628,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
 
 											<td id="totwork_7"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>8</td>
+													
+													<td>10</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="7";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2586,78 +2730,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
 
 											<td id="totwork_8"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>11</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="8";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2672,78 +2832,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
 
 											<td id="totwork_9"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>9</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>5</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="9";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2758,78 +2934,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
 
 											<td id="totwork_10"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>7</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="10";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2844,78 +3036,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
 
 											<td id="totwork_11"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>10</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="11";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2930,78 +3138,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
 
 											<td id="totwork_12"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>7</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>11</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="12";
-												var tot="0";									
+												var tot="20";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3016,78 +3240,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
 
 											<td id="totwork_13"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>8</td>
+													
+													<td>7</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="13";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3102,78 +3342,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
 
 											<td id="totwork_14"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>5</td>
+													
+													<td>9</td>
+													
+													<td>0</td>
+													
+													<td>7</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="14";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3188,78 +3444,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
 
 											<td id="totwork_15"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>5</td>
+													
+													<td>10</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="15";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3274,78 +3546,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
 
 											<td id="totwork_16"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>9</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="16";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3360,74 +3648,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_17"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="17";
@@ -3446,78 +3750,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
 
 											<td id="totwork_18"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>10</td>
+													
+													<td>5</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="18";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3532,78 +3852,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
 
 											<td id="totwork_19"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>10</td>
+													
+													<td>5</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="19";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3618,78 +3954,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
 
 											<td id="totwork_20"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>9</td>
+													
+													<td>6</td>
+													
+													<td>0</td>
+													
+													<td>6</td>
+													
+													<td>10</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="20";
-												var tot="0";									
+												var tot="21";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3704,78 +4056,94 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" >H</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오전<br>반차</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오전<br>반차</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오후<br>반차</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오전<br>반차</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_white bg-font-white" >D</td>
 															
-															<td style=""></td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오전<br>반차</td>
 															
 
 											<td id="totwork_21"></td>
 											
+													<td>4</td>
+													
+													<td>1</td>
+													
+													<td>21</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>4</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="21";
-												var tot="0";									
+												var tot="22";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -3790,74 +4158,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_22"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="22";
@@ -3876,74 +4260,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_23"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="23";
@@ -3962,74 +4362,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_24"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="24";
@@ -4048,74 +4464,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_25"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="25";
@@ -4134,74 +4566,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_26"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="26";
@@ -4220,74 +4668,90 @@ $(document).ready(function(){
 
 											
 												<td class="text-center">
-												<!-- 일정제출 완료 -->
+												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
-														<td style=""></td>
-														
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
+															<td class="color_ bg-font-" ></td>
+															
 
 											<td id="totwork_27"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 									
 											<script type="text/javascript">
 												var ncnt="27";
