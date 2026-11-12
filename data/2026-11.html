@@ -337,8 +337,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			strUrl = "/bizwiz/board/board_write.asp?dbname=" + strCate3 + "&target=G&gc=" + strCate2;
 		}
 
-		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-11&group_no=5119 / 102422_myworkschedule_2026111285845 / /MWorks/102422");
-		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-11&group_no=5119", "102422_myworkschedule_2026111285845", "/MWorks/102422",strUrl);
+		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-11&group_no=5119 / 102422_myworkschedule_20261112144621 / /MWorks/102422");
+		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-11&group_no=5119", "102422_myworkschedule_20261112144621", "/MWorks/102422",strUrl);
 	}
 
 	function CallPDFIA(RequestURL, RequestFileName, RequestFolderName, strUrl) {
@@ -1489,7 +1489,7 @@ $(document).ready(function(){
 					근무표 > 내근무표 > 
 					<span class="now">
 						 &nbsp;   중환자실
-								(확정근무표 2026-11-03 오후 11:08:53)
+								(확정근무표 2026-11-12 오후 12:38:22)
 							
 					</span>
 				</p>
@@ -1729,7 +1729,7 @@ $(document).ready(function(){
 									</th>
 									
 
-								<th  colspan="9" style="width: 10vw; min-width: 100px;">근무자 합산</th>
+								<th  colspan="13" style="width: 10vw; min-width: 100px;">근무자 합산</th>
 							</tr>
 							<tr>
 								
@@ -1875,9 +1875,17 @@ $(document).ready(function(){
 								<th style="width:50px;">근무</td>
 								
 								
+											<th style="width:50px; font-size: 11px;">산모off</th>
+											
+											<th style="width:50px; font-size: 11px;">생리휴가</th>
+											
+											<th style="width:50px; font-size: 11px;">연차</th>
+											
 											<th style="width:50px; font-size: 11px;">오전반차</th>
 											
 											<th style="width:50px; font-size: 11px;">육아휴직</th>
+											
+											<th style="width:50px; font-size: 11px;">출산휴가</th>
 											
 											<th style="width:50px; font-size: 11px;">D</th>
 											
@@ -1933,7 +1941,7 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >오전<br>반차</td>
+															<td class="color_red-pink bg-font-red-pink" >H</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -1970,7 +1978,15 @@ $(document).ready(function(){
 
 											<td id="totwork_0"></td>
 											
-													<td>4</td>
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>3</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -1980,7 +1996,7 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
-													<td>0</td>
+													<td>1</td>
 													
 													<td>0</td>
 													
@@ -1989,7 +2005,7 @@ $(document).ready(function(){
 									
 											<script type="text/javascript">
 												var ncnt="0";
-												var tot="21";									
+												var tot="22";									
 												$("#totwork_"+ncnt).html(tot);
 											</script>
 										</tr>
@@ -2027,9 +2043,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2039,7 +2055,7 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2074,6 +2090,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>3</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>8</td>
@@ -2084,7 +2108,7 @@ $(document).ready(function(){
 													
 													<td>2</td>
 													
-													<td>12</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2123,11 +2147,11 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2174,6 +2198,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>3</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>6</td>
@@ -2184,7 +2216,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>12</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2209,9 +2241,9 @@ $(document).ready(function(){
 											
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -2274,6 +2306,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>9</td>
@@ -2284,7 +2324,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2313,9 +2353,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2374,6 +2414,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>10</td>
@@ -2384,7 +2432,7 @@ $(document).ready(function(){
 													
 													<td>4</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2439,9 +2487,9 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2474,6 +2522,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>5</td>
@@ -2484,7 +2540,7 @@ $(document).ready(function(){
 													
 													<td>5</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2543,7 +2599,7 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -2574,6 +2630,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>8</td>
@@ -2584,7 +2648,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2653,7 +2717,7 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -2674,6 +2738,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>7</td>
@@ -2684,7 +2756,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2727,7 +2799,7 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -2774,6 +2846,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>9</td>
@@ -2784,7 +2864,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2823,9 +2903,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_grey bg-font-grey" style="font-size: 7pt;" >생리<br>휴가</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
@@ -2872,6 +2952,14 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>0</td>
@@ -2884,7 +2972,7 @@ $(document).ready(function(){
 													
 													<td>4</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -2941,9 +3029,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
@@ -2974,6 +3062,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>7</td>
@@ -2984,7 +3080,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3011,9 +3107,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3023,7 +3119,7 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_pink bg-font-pink" style="font-size: 7pt;" >산모off</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
@@ -3070,6 +3166,14 @@ $(document).ready(function(){
 
 											<td id="totwork_11"></td>
 											
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>2</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>0</td>
@@ -3084,7 +3188,7 @@ $(document).ready(function(){
 													
 													<td>3</td>
 													
-													<td>12</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3113,9 +3217,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3174,6 +3278,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>6</td>
@@ -3184,7 +3296,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3255,7 +3367,7 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3274,6 +3386,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>8</td>
@@ -3284,7 +3404,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3329,21 +3449,11 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
-															
-															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
-															
-															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
-															
-															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
-															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
-															
-															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
@@ -3355,9 +3465,19 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
+															
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
+															
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -3374,17 +3494,25 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
 													<td>0</td>
 													
-													<td>8</td>
+													<td>0</td>
 													
-													<td>5</td>
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>7</td>
+													
+													<td>6</td>
 													
 													<td>0</td>
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3441,9 +3569,9 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3474,6 +3602,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>6</td>
@@ -3484,7 +3620,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3553,11 +3689,11 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
+															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3574,17 +3710,25 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
-													<td>0</td>
-													
-													<td>7</td>
-													
-													<td>6</td>
+													<td>2</td>
 													
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>8</td>
+													
+													<td>5</td>
+													
+													<td>0</td>
+													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3627,9 +3771,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3674,6 +3818,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>8</td>
@@ -3684,7 +3836,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3755,9 +3907,9 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >N1</td>
 															
@@ -3774,6 +3926,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>2</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>6</td>
@@ -3784,7 +3944,7 @@ $(document).ready(function(){
 													
 													<td>6</td>
 													
-													<td>11</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3817,7 +3977,7 @@ $(document).ready(function(){
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >D1</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
@@ -3874,6 +4034,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>10</td>
@@ -3884,7 +4052,7 @@ $(document).ready(function(){
 													
 													<td>5</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -3923,7 +4091,7 @@ $(document).ready(function(){
 															
 															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
 															
-															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >OFF</td>
+															<td class="color_red-pink bg-font-red-pink" style="font-size: 7pt;" >연차</td>
 															
 															<td class="color_white bg-font-white" style="font-size: 7pt;" >E1</td>
 															
@@ -3974,6 +4142,14 @@ $(document).ready(function(){
 													
 													<td>0</td>
 													
+													<td>1</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>8</td>
@@ -3984,7 +4160,7 @@ $(document).ready(function(){
 													
 													<td>4</td>
 													
-													<td>10</td>
+													<td>9</td>
 													
 									
 											<script type="text/javascript">
@@ -4070,7 +4246,15 @@ $(document).ready(function(){
 
 											<td id="totwork_21"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>3</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -4172,7 +4356,15 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>30</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -4272,7 +4464,15 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>30</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -4307,69 +4507,77 @@ $(document).ready(function(){
 												<i class="fa fa-check-square-o"></i><!-- 일정제출 완료 -->
 												</td>
 											
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
-															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >육아<br>휴직</td>
+															<td class="color_yellow bg-font-yellow" style="font-size: 7pt;" >출산<br>휴가</td>
 															
 
 											<td id="totwork_24"></td>
 											
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>0</td>
 													
 													<td>30</td>
@@ -4472,7 +4680,15 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>30</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -4572,7 +4788,15 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>30</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
@@ -4672,7 +4896,15 @@ $(document).ready(function(){
 											
 													<td>0</td>
 													
+													<td>0</td>
+													
+													<td>0</td>
+													
+													<td>0</td>
+													
 													<td>30</td>
+													
+													<td>0</td>
 													
 													<td>0</td>
 													
