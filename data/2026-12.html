@@ -337,8 +337,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			strUrl = "/bizwiz/board/board_write.asp?dbname=" + strCate3 + "&target=G&gc=" + strCate2;
 		}
 
-		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-12&group_no=5119 / 102422_myworkschedule_20261118105629 / /MWorks/102422");
-		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-12&group_no=5119", "102422_myworkschedule_20261118105629", "/MWorks/102422",strUrl);
+		//console.log("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-12&group_no=5119 / 102422_myworkschedule_20261118183451 / /MWorks/102422");
+		CallPDFIA("http://gw.meditong.com/bizwiz/schedule/rnw_workSchedule_my_pdfNew.asp?EmpSeqno=448197&OfficeCode=102422&nDate=2026-12&group_no=5119", "102422_myworkschedule_20261118183451", "/MWorks/102422",strUrl);
 	}
 
 	function CallPDFIA(RequestURL, RequestFileName, RequestFolderName, strUrl) {
@@ -1131,7 +1131,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<a href="javascript:mf_PushGo();">
 					<img src="/bizwiz/images/menu_icon/header-icon-01.png" title="알림통" alt="알림통">
 					
-					<span class="alram-badge">4</span>
+					<span class="alram-badge">5</span>
 					
 				</a>
 				<!-- <a href="javascript:mf_asGo();">
@@ -5196,7 +5196,6 @@ $(document).ready(function(){
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="sky-blue-outline-btn btn-border-rounded" data-dismiss="modal">닫기</button>
-				
 			</div>
 		</div>
 	</div>
@@ -5290,56 +5289,31 @@ $(document).ready(function(){
 
 		}
 
-		// 메모장 움직이는 기능 추가
-	
-			// let mouseSwitch = false;
-			// let cursorX, cursorY, marginX, marginY;
-	
-			// let modalWindow = document.querySelector(".modalMove_window");
-	
-			// modalWindow.querySelector(".modal-title").addEventListener("mousedown", e=>{
-				
-			// 	mouseSwitch = true;
-	
-			// 	cursorX = e.pageX;
-			// 	cursorY = e.pageY;
-	
-			// 	modalX = modalWindow.offsetLeft;
-			// 	modalY = modalWindow.offsetTop;
-	
-			// 	marginX = ((cursorX - modalX) / window.innerWidth * 100);
-			// 	marginY = ((cursorY - modalY) / window.innerHeight * 100);
-			// })
-	
-			window.addEventListener("mouseup", ()=>{
-				mouseSwitch = false;
-				if(focusMemoWindow){
-					focusMemoWindow.querySelector(".modal-title").classList.remove("pointerEventsNone");
-					focusMemoWindow = "";
-				}
-			})
-	
-			window.addEventListener("mousemove", e=>{
-				if(mouseSwitch){
-					cursorX = e.pageX;
-					cursorY = e.pageY;
-	
-					let posX = cursorX / window.innerWidth * 100
-					let posY = cursorY / window.innerHeight * 100
-	
-					// let x = posX - marginX + "%",
-					// 	y = posY - marginY + "%";
-					let x = posX - marginX,
-						y = posY - marginY;
-	
-					focusMemoWindow.style.left = x > 98? "98%": x+"%";
-					focusMemoWindow.style.top = y > 96? "96%" : y+"%";
-				}
-			})
-			// document.querySelector(".modalOpen").addEventListener("click", e=>{
-			// 	modalWindow.style.left= "20%";
-			// 	modalWindow.style.top= "10%";
-			// })
+		window.addEventListener("mouseup", ()=>{
+			mouseSwitch = false;
+			if(focusMemoWindow){
+				focusMemoWindow.querySelector(".modal-title").classList.remove("pointerEventsNone");
+				focusMemoWindow = "";
+			}
+		})
+
+		window.addEventListener("mousemove", e=>{
+			if(mouseSwitch){
+				cursorX = e.pageX;
+				cursorY = e.pageY;
+
+				let posX = cursorX / window.innerWidth * 100
+				let posY = cursorY / window.innerHeight * 100
+
+				// let x = posX - marginX + "%",
+				// 	y = posY - marginY + "%";
+				let x = posX - marginX,
+					y = posY - marginY;
+
+				focusMemoWindow.style.left = x > 98? "98%": x+"%";
+				focusMemoWindow.style.top = y > 96? "96%" : y+"%";
+			}
+		})
 	
 		</script>
 </body>
